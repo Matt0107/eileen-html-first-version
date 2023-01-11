@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* body */
+body {
+    background-image: url(./assets/face.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Barlow', sans-serif;
+    padding: 0;
+    margin: 10px;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* navbar */
+.logo img {
+    width: 40px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav li {
+    list-style: none;
+    padding: 5px;
+    font-size: small;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: rgb(223, 175, 19);
+    transition: 0.5s;
+}
+
+/* main */
+main {
+    margin: 10px;
+}
+
+#home {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: white;
+    font-size: 30px;
+    transform: skew(0deg, -8deg);
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+#about {
+    height: 600px;
+}
+
+#about div {
+    background: linear-gradient(90deg, rgba(21, 21, 52, 0.43040966386554624) 100%, rgba(0, 9, 16, 0.2248249641653537) 100%);
+}
+
+#music {
+    height: 900px;
+    border-bottom: 10px;
+
+}
+#music aside{
+    font-family: 'Gloria Hallelujah', cursive;
+    color: white;
+    font-size: 30px;
+    transform: skew(0deg, -8deg);
+}
+
+.youtube-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.streaming h3{
+    padding-top: 40px;
+}
+.streaming,
+.streaming-icons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.streaming-icons a img {
+    width: 200px;
+    padding: 10px;
+}
+
+#contact {
+    height: 600px;
+}
+#contact aside{
+    font-family: 'Gloria Hallelujah', cursive;
+    color: white;
+    font-size: 30px;
+    transform: skew(0deg, -8deg);
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(21, 21, 52, 0.43040966386554624) 100%, rgba(0, 9, 16, 0.2248249641653537) 100%);
+    border-radius: 5px;
+}
+
+input,
+textarea {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+
+input,
+textarea,
+button {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+form button {
+    padding: 5px;
+    margin: 10px;
+}
+
+footer {
+    background-color: rgba(21, 21, 52, 0.43040966386554624);
+    text-align: center;
+    padding: 10px;
+}
+
+@media (min-width: 768px) {
+    body{
+        background-size: 760px;
+    }
+    /* navbar */
+    .logo img {
+        width: 70px;
+    }
+    nav li {
+        padding: 5px;
+        font-size: medium;
+    }
+
+    /* main */
+    #home{
+        font-size: 50px;
+        height: 900px;
+    }
+
+    #about{
+        height: 900px;
+    }
+    #about h2{
+        visibility: hidden;
+    }
+    #about p{
+        padding: 10px 100px;
+        font-size: 25px;
+    }
+}
