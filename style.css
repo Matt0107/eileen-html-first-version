@@ -87,7 +87,8 @@ main {
     border-bottom: 10px;
 
 }
-#music aside{
+
+#music aside {
     font-family: 'Gloria Hallelujah', cursive;
     color: white;
     font-size: 30px;
@@ -100,9 +101,10 @@ main {
     align-items: center;
 }
 
-.streaming h3{
+.streaming h3 {
     padding-top: 40px;
 }
+
 .streaming,
 .streaming-icons {
     display: flex;
@@ -119,7 +121,8 @@ main {
 #contact {
     height: 600px;
 }
-#contact aside{
+
+#contact aside {
     font-family: 'Gloria Hallelujah', cursive;
     color: white;
     font-size: 30px;
@@ -162,32 +165,60 @@ footer {
 }
 
 @media (min-width: 768px) {
-    body{
+    body {
         background-size: 760px;
     }
+
     /* navbar */
     .logo img {
         width: 70px;
     }
+
     nav li {
         padding: 5px;
         font-size: medium;
     }
 
     /* main */
-    #home{
+    #home {
         font-size: 50px;
         height: 900px;
     }
 
-    #about{
-        height: 900px;
+    #about {
+        height: 1200px;
     }
-    #about h2{
+
+    #about h2 {
         visibility: hidden;
     }
-    #about p{
+
+    #about p {
         padding: 10px 100px;
         font-size: 25px;
+    }
+
+    #music {
+        height: 1600px
+    }
+
+    #music aside {
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+
+    #music iframe {
+        padding: 20px;
+        width: 600px;
+        height: 406px;
+    }
+
+    #contact aside {
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+
+    #contact {
+        height: 800px;
     }
 }
