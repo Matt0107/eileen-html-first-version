@@ -159,9 +159,7 @@ form button {
 }
 
 footer {
-    background-color: rgba(21, 21, 52, 0.43040966386554624);
     text-align: center;
-    padding: 10px;
 }
 
 @media (min-width: 768px) {
