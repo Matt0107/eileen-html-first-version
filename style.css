@@ -164,7 +164,7 @@ footer {
 
 @media (min-width: 768px) {
     body {
-        background-size: 760px;
+        background-size: 100vw;
     }
 
     /* navbar */
@@ -227,5 +227,9 @@ footer {
     background-size: cover;
     background-attachment: fixed;
 }
+nav li {
     
+    font-size: medium;
+}
+
 }
