@@ -162,7 +162,7 @@ footer {
     text-align: center;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     body {
         background-size: 760px;
     }
@@ -220,7 +220,7 @@ footer {
         height: 800px;
     }
 }
-@media (min-width: 1025px){
+@media (min-width: 768px){
     body{
     background-image: url(./assets/sit\ BW.jpg);
     background-repeat: no-repeat;
