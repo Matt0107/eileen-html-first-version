@@ -23,6 +23,11 @@ h1 {
 }
 
 /* navbar */
+header {
+    display: flex;
+    width: 100%;
+}
+
 .logo img {
     width: 40px;
 }
@@ -220,16 +225,104 @@ footer {
         height: 800px;
     }
 }
-@media (min-width: 1025px){
-    body{
-    background-image: url(./assets/sit\ BW.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-nav li {
-    
-    font-size: medium;
-}
+
+@media (min-width: 1025px) {
+    body {
+        background-image: url(./assets/sit\ BW.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    nav li {
+        font-size: medium;
+    }
+
+    #about {
+        width: 900px;
+        height: auto;
+        margin-bottom: 50px;
+
+        padding: 10px;
+        border-radius: 5px;
+        display: inline-block;
+        left: 50%;
+        transform: translateX(-50%);
+        position: relative;
+    }
+
+    #about p {
+        width: 700px;
+        font-size: 20px;
+    }
+
+
+    #music .streaming {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+
+    .youtube-link {
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        margin: 30px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    .streaming-icons a img {
+        width: 300px;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+
+
+    #contact h1 {
+        margin: 0;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 60px;
+        height: 400px;
+        background: linear-gradient(90deg, rgba(21, 21, 52, 0.43040966386554624) 100%, rgba(0, 9, 16, 0.2248249641653537) 100%);
+        margin: 100px;
+        border-radius: 5px;
+    }
+
+    input,
+    textarea {
+        width: 500px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    input,
+    textarea,
+    button {
+        background: transparent;
+        border: 1px solid #fff;
+        color: #fff;
+    }
+
+    form button {
+        padding: 5px;
+        margin: 10px;
+    }
+
+    footer {
+        background-color: rgba(21, 21, 52, 0.43040966386554624);
+        text-align: center;
+        padding: 10px;
+    }
 
 }
