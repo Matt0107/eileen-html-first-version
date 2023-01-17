@@ -25,7 +25,7 @@ h1 {
 /* navbar */
 header {
     display: flex;
-    width: 100%;
+    justify-content: space-between;
 }
 
 .logo img {
@@ -33,12 +33,9 @@ header {
 }
 
 nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     margin-top: 10px;
     margin-right: 10px;
+    z-index: 999;
 
 }
 
@@ -270,6 +267,7 @@ footer {
         justify-content: center;
         justify-content: space-between;
         margin: 30px;
+        flex-direction: unset;
     }
 
     h3 {
@@ -320,7 +318,7 @@ footer {
     }
 
     footer {
-        background-color: rgba(21, 21, 52, 0.43040966386554624);
+
         text-align: center;
         padding: 10px;
     }
