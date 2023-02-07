@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "Eileen Baum"
+AuthUserFile /home/eileent/www/.htpasswd
+Require valid-user
+Order deny,allow
+Deny from all
+Satisfy any
