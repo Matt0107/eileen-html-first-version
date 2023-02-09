@@ -135,16 +135,34 @@
             >www.merktour.de</a
           >
         </p>
-        <form action="">
+        <form action="contactform.php" method="post">
           <label for="name">Name</label>
-          <input type="text" name="" id="name" required />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            required
+            placeholder="Your full name"
+          />
           <label for="number">Phone Number</label>
-          <input type="text" name="" id="number" required />
+          <input
+            type="tel"
+            name="number"
+            id="number"
+            required
+            placeholder="0123456789"
+          />
           <label for="email">Email</label>
-          <input type="email" name="" id="email" required />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="Your e-mail"
+          />
           <label for="message">Leave a message</label>
-          <textarea id="message" rows="8"></textarea>
-          <button type="submit">SUBMIT</button>
+          <textarea id="message" rows="8" placeholder="Message"></textarea>
+          <button type="submit">SEND</button>
         </form>
       </section>
       <footer><p>© 2023 Eileen Baum</p></footer>
