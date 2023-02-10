@@ -10,10 +10,11 @@
   <body>
     <header>
       <span class="logo"
-        ><img
-          src="./assets/reshot-icon-guitar-H5WR34LSTV.svg"
-          alt="icon-guitar"
-      /></span>
+        ><a href="https://www.eileenbaum.de/"
+          ><img
+            src="./assets/reshot-icon-guitar-H5WR34LSTV.svg"
+            alt="icon-guitar" /></a
+      ></span>
       <nav>
         <div>
           <ul>
@@ -161,8 +162,13 @@
             placeholder="Your e-mail"
           />
           <label for="message">Leave a message</label>
-          <textarea id="message" rows="8" placeholder="Message"></textarea>
-          <button type="submit">SEND</button>
+          <textarea
+            name="message"
+            id="message"
+            rows="8"
+            placeholder="Message"
+          ></textarea>
+          <input type="submit" value="SEND" name="submit" />
         </form>
       </section>
       <footer><p>© 2023 Eileen Baum</p></footer>
